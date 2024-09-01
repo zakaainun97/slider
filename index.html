@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,100;1,400;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Animated Slider</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <div class="slider">
+      <div class="list">
+        <div class="item">
+          <img src="./public/1.jpg" alt="Image 1" />
+          <div class="detail">
+            <div class="title">Dota 2</div>
+            <div class="name">Templar Assassin</div>
+            <figure>
+              <img src="./public/avatar/1.png" alt="Avatar 1" />
+              <figcaption>Carry / Escape</figcaption>
+            </figure>
+            <div class="desc">
+              Bending the laws of nature itself, Lanaya forms a Refraction field
+              that absorbs incoming blows, yet amplifies outgoing attacks.
+            </div>
+            <a href="#" class="more">More Details &raquo</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./public/2.jpg" alt="Image 1" />
+          <div class="detail">
+            <div class="title">Dota 2</div>
+            <div class="name">Mirana</div>
+            <figure>
+              <img src="./public/avatar/2.png" alt="Avatar 1" />
+              <figcaption>
+                Carry / Support / Escape / Nuker / Disabler
+              </figcaption>
+            </figure>
+            <div class="desc">
+              Mirana patrols the Nightsilver Woods, ever vigilant against those
+              who would dare to take from her goddess' preserve.
+            </div>
+            <a href="#" class="more">More Details &raquo</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./public/3.jpg" alt="Image 1" />
+          <div class="detail">
+            <div class="title">Dota 2</div>
+            <div class="name">Centaur Warrunner</div>
+            <figure>
+              <img src="./public/avatar/3.png" alt="Avatar 1" />
+              <figcaption>
+                Durable / Initiator / Disabler / Nuker / Escape
+              </figcaption>
+            </figure>
+            <div class="desc">
+              Bradwarden is the champion of the centaur race, having won his
+              honor by killing every challenger in the arena of Omexe.
+            </div>
+            <a href="#" class="more">More Details &raquo</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./public/4.jpg" alt="Image 1" />
+          <div class="detail">
+            <div class="title">Dota 2</div>
+            <div class="name">Lycan</div>
+            <figure>
+              <img src="./public/avatar/4.png" alt="Avatar 1" />
+              <figcaption>Carry / Pusher / Durable / Escape</figcaption>
+            </figure>
+            <div class="desc">
+              Part man and part wolf, Banehallow stands as the lone surviving
+              heir to the noble House of Ambry.
+            </div>
+            <a href="#" class="more">More Details &raquo</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./public/5.jpg" alt="Image 1" />
+          <div class="detail">
+            <div class="title">Dota 2</div>
+            <div class="name">Windranger</div>
+            <figure>
+              <img src="./public/avatar/5.png" alt="Avatar 1" />
+              <figcaption>
+                Carry / Support / Disabler / Escape / Nuker
+              </figcaption>
+            </figure>
+            <div class="desc">
+              Born in the midst of a ruinous tempest, Lyralei has always been
+              one with the Elemental Wind.
+            </div>
+            <a href="#" class="more">More Details &raquo</a>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail">
+        <div class="item">
+          <img src="./public/1.jpg" alt="Thumbnail 1" />
+          <div class="detail">
+            <div class="nama">Templar Assasin</div>
+            <blockquote>
+              "The truth is all around you but it hides from the unworthy."
+            </blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./public/2.jpg" alt="Thumbnail 2" />
+          <div class="detail">
+            <div class="nama">Mirana</div>
+            <blockquote>
+              "They should have run while they had the chance."
+            </blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./public/3.jpg" alt="Thumbnail 2" />
+          <div class="detail">
+            <div class="nama">Centaur Warrunner</div>
+            <blockquote>"The hoofbeats of your heart beat no more."</blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./public/4.jpg" alt="Thumbnail 2" />
+          <div class="detail">
+            <div class="nama">Lycan</div>
+            <blockquote>"May your house long record your name."</blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./public/5.jpg" alt="Thumbnail 2" />
+          <div class="detail">
+            <div class="nama">Windranger</div>
+            <blockquote>"Pain, meet Ugly. Ugly, pain."</blockquote>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <button id="prev">&lt;</button>
+        <button id="next">&gt;</button>
+      </div>
+      <div class="loader"></div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
