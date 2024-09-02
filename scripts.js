@@ -24,7 +24,7 @@ const initSlider = (type) => {
   if (type === "next") {
     list.appendChild(sliderItems[0]);
     thumbnail.appendChild(thumbnailItems[0]);
-    slider.classList.add(".next");
+    slider.classList.add("next");
   } else {
     const lastItemPosition = sliderItems.length - 1;
 
@@ -34,8 +34,8 @@ const initSlider = (type) => {
   }
 
   setTimeout(() => {
-    slider.classList.remove(".next");
-    slider.classList.remove(".prev");
+    slider.classList.remove("next");
+    slider.classList.remove("prev");
   }, 2000);
 
   clearTimeout(runAutoPlay);

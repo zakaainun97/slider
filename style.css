@@ -79,7 +79,7 @@ header nav a {
   letter-spacing: 0.1rem;
   line-height: 3.5rem;
   margin-bottom: 0.8rem;
-  background: linear-gradient(#1f7ea1, #ffa8bd);
+  background: linear-gradient(#ea5459, #f7ba2c);
   background-clip: text;
   text-shadow: none;
   color: transparent;
@@ -311,7 +311,7 @@ header nav a {
   }
 }
 
-.slider.prev .list .item:nth-child(1) {
+.slider.prev .list .thumbnail .item:nth-child(1) {
   width: 0;
   overflow: hidden;
   opacity: 0;
@@ -342,7 +342,7 @@ header nav a {
 .loader {
   width: 0;
   height: 5px;
-  background-color: #fff;
+  background-color: #f80;
   position: absolute;
   z-index: 999;
   top: 0;
