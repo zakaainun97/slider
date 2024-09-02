@@ -124,7 +124,7 @@ header nav a {
 
 .slider .list .item .detail .more:hover {
   color: #fff;
-  background-color: #1f7ea1;
+  background-color: #ea5459;
 }
 
 /*Thumbnail*/
@@ -193,14 +193,14 @@ header nav a {
   border-radius: 50%;
   border-bottom: 1px 1px 1px #000;
   font-family: monospace;
-  color: #1f7ea1;
+  color: #ea5459;
   cursor: pointer;
   z-index: 100;
   transition: 0.3s;
 }
 
 .arrows button:hover {
-  background-color: #1f7ea1;
+  background-color: #ea5459;
   color: #fff;
 }
 
